@@ -1,0 +1,104 @@
+{
+  "generation": {
+    "claim_rows": 12008,
+    "contracts": 24,
+    "cost_spike_claims": 18,
+    "duplicate_claim_rows": 8,
+    "enrollment_rows": 1500,
+    "invalid_provider_claims": 12,
+    "members": 1500,
+    "missing_required_claims": 10,
+    "outside_enrollment_claims": 15,
+    "paid_over_allowed_claims": 10,
+    "providers": 160,
+    "seed": 20260827,
+    "unique_claims": 12000
+  },
+  "loaded_claims": 11978,
+  "privacy_classification": "SYNTHETIC_NO_PHI",
+  "quarantined_claims": 22,
+  "reconciliation": {
+    "allowed_amount_cents": {
+      "difference": 0,
+      "source": 2397282020,
+      "status": "PASS",
+      "target": 2397282020
+    },
+    "claim_amount_cents": {
+      "difference": 0,
+      "source": 3207820600,
+      "status": "PASS",
+      "target": 3207820600
+    },
+    "paid_amount_cents": {
+      "difference": 0,
+      "source": 1800680217,
+      "status": "PASS",
+      "target": 1800680217
+    },
+    "unique_claim_count": {
+      "difference": 0,
+      "source": 12000,
+      "status": "PASS",
+      "target": 12000
+    }
+  },
+  "source_counts": {
+    "claim_rows": 12008,
+    "contracts": 24,
+    "enrollment": 1500,
+    "members": 1500,
+    "providers": 160,
+    "unique_claims": 12000
+  },
+  "status": "PASS",
+  "validation": {
+    "critical_error_count": 0,
+    "critical_errors": [],
+    "duplicate_claim_count": 8,
+    "duplicate_claim_ids": [
+      "CLM0001310",
+      "CLM0003872",
+      "CLM0005334",
+      "CLM0006755",
+      "CLM0007757",
+      "CLM0009850",
+      "CLM0010718",
+      "CLM0010897"
+    ],
+    "issue_counts": {
+      "COST_SPIKE": 18,
+      "DUPLICATE_CLAIM": 8,
+      "INVALID_PROVIDER": 12,
+      "MISSING_REQUIRED_FIELD": 10,
+      "OUTSIDE_ENROLLMENT": 15,
+      "PAID_EXCEEDS_ALLOWED": 10
+    },
+    "quarantine_claim_ids": [
+      "CLM0000193",
+      "CLM0001060",
+      "CLM0001956",
+      "CLM0002330",
+      "CLM0002973",
+      "CLM0003200",
+      "CLM0004040",
+      "CLM0004733",
+      "CLM0004937",
+      "CLM0005198",
+      "CLM0005927",
+      "CLM0006095",
+      "CLM0006776",
+      "CLM0007243",
+      "CLM0008169",
+      "CLM0010156",
+      "CLM0010802",
+      "CLM0010940",
+      "CLM0011076",
+      "CLM0011507",
+      "CLM0011801",
+      "CLM0011883"
+    ],
+    "rows_checked": 12008,
+    "unique_claims": 12000
+  }
+}

@@ -1,0 +1,5 @@
+control_name,unit,source_value,target_value,difference,status
+unique_claim_count,COUNT,12000.0,12000.0,0.0,PASS
+claim_amount,USD,32078206.0,32078206.0,0.0,PASS
+allowed_amount,USD,23972820.2,23972820.2,0.0,PASS
+paid_amount,USD,18006802.17,18006802.17,0.0,PASS
